@@ -78,15 +78,6 @@ public class Metodo {
                 if(v[x] == v[p]) count++;
             }
         }
-        for(int i = 0 ; i<v.length; i++){
-            ++igual[(v[i])];
-        }
-        System.out.println("Numeros repetidos /// quantidade");
-        for(int i = 0 ; i<v.length; i++){
-            if(igual[i]>1){
-                System.out.println(" " + i + "......" + igual[i]);
-            }
-        }
         if(count !=0)
             System.out.printf("Existe numeros duplicados");
         else
